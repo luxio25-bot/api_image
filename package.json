@@ -1,0 +1,17 @@
+{
+  "name": "api-carte-id",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "pureimage": "^0.4.18"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
