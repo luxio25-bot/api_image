@@ -10,8 +10,8 @@ app.use(express.json());
 
 // Enregistrer la police Arial depuis le dossier /fonts
 const font = pureimage.registerFont(
-  path.join(__dirname, "fonts", "ARIAL.TTF"),
-  "Arial",
+  path.join(__dirname, "ARIAL.TTF"),
+  "Arial"
 );
 
 app.post("/generate", async (req, res) => {
